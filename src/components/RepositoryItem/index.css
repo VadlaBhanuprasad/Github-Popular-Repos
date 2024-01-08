@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.repo-card {
+  padding-top: 10px;
+  height: 290px;
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 14px;
+  background-color: #f8f8ff;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+.avatar-image {
+  height: 120px;
+  width: 120px;
+  margin: auto;
+}
+.repo-name {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #e73959;
+}
+.div {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  line-height: 0px;
+}
+.image {
+  height: 14px;
+  width: 14px;
+  margin-right: 10px;
+}
+.image-label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.repo-details-container {
+  padding-left: 35px;
+}

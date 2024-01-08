@@ -1,0 +1,10 @@
+ renderPopularRepos = () => {
+    const {reposData, status} = this.state
+    switch (status) {
+      case stateDetails.loader:
+        return this.renderLoader()
+      case stateDetails.success:
+        return this.renderPopularRepos()
+      default:
+        return null
+    }

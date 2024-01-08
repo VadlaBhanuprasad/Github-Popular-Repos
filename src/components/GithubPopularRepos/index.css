@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+.popular {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Lobster';
+  color: #1e293b;
+}
+.filter-buttons-list {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.repository-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-image {
+  width: 50%;
+  margin-top: 50px;
+}
+.something-went-wrong {
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Lobster';
+  color: #1e293b;
+}
+.loader {
+  margin-top: 50px;
+}

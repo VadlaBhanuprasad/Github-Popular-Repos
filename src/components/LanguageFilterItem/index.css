@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  color: #1e293b;
+  border-radius: 14px;
+  background-color: transparent;
+  border: none;
+}
+.filter-button {
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 16px;
+}
+.active-button {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+}
